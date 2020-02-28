@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import Header from '../Header'
-import Body from '../Body'
+import Header from '../Header';
+import Body from '../Body';
 
-import './Layout.css'
-
+import './Layout.css';
 
 const Layout = () => {
   return (
@@ -12,7 +11,7 @@ const Layout = () => {
       <Header />
       <Body />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
