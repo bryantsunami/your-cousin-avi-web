@@ -1,8 +1,5 @@
-import React from "react"
-import {
-  Switch,
-  Route,
-} from 'react-router-dom';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 const Body = () => {
   return (
@@ -17,8 +14,8 @@ const Body = () => {
         <Home />
       </Route>
     </Switch>
-  )
-}
+  );
+};
 
 function Home() {
   return <h2>Home</h2>;
@@ -32,4 +29,4 @@ function Users() {
   return <h2>Users</h2>;
 }
 
-export default Body
+export default Body;
